@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>deeplearn demo1</title>
+</head>
+
+<body>
+    <script>
+        // const deeplearn=require('deeplearn');
+        // const util=require('util');
+        // const math = new deeplearn.NDArrayMathGPU();
+        // const a=deeplearn.Array1D.new([1,2,3]);
+        // const b=deeplearn.Scalar.new(2);
+        // math.scope(()=>{
+        //     const result=math.add(a,b);
+        //     document.body.append(util.inspect(result));
+        // });
+        // 
+        import * as tf from '@tensorflow/tfjs'
+        import tensorflow.examples.tutorials.mnist.input_data as input_data
+		mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
+
+    </script>
+</body>
+</html>
