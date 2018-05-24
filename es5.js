@@ -22,3 +22,19 @@ console.log(Object.prototype.toString.call(a));
 
 var b = tf.tensor([[1.0, 2.0, 3.0], [10.0, 20.0, 30.0]]);
 b.print();
+
+
+
+
+
+ const a = tf.scalar(3.14);
+    a.print(); // 输出零维张量
+
+    const b = tf.tensor2d([[2, 3, 4], [5, 6, 7]]);
+    b.print(); // 输出二维张量
+
+    const c = tf.zeros([2, 3]);
+    c.print(); // 输出2行3列的值全是0的张量
+
+    const d = tf.ones([3, 5]);
+    d.print(); // 输出3行5列的值全是1的张量

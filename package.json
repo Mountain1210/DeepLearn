@@ -8,7 +8,7 @@
     "es6": "babel es6.js -o es5.js",
     "es6tout": "babel es6.js --out-file es5.js",
     "es6watch": "babel es6.js --watch --out-file es5.js",
-    "build_es6": "webpack-dev-server --port 4000 --hot --inline --config webpack.config.js"
+    "dp": "webpack-dev-server --port 4000 --hot --inline --config webpack.config.js"
   },
   "author": "wangwei",
   "license": "ISC",
