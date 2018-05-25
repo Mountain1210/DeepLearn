@@ -7,13 +7,13 @@ module.exports = {
     filename: 'bundle.js'
   },
   module:{  
-         rules:[  
+         rules:[
              {  
                  test:/.js$/,
                  loaders:["babel-loader"],
                  exclude:"/node_modules/",
                  include:path.resolve(__dirname,"/es6/")
-             }  
+             } 
          ]  
      }  
 };

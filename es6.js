@@ -29,19 +29,19 @@ document.write('<h1>============================================================
 
   //   const d = tf.ones([3, 5]);
   //   d.print(); // 输出3行5列的值全是1的张量
-console.log(tf)
-// const initialValues = tf.zeros([5]);
-//     const biases = tf.variable(initialValues);
-//     biases.print();
-//     console.log(Object.prototype.toString.call(biases));
+	console.log(tf)
+	// const initialValues = tf.zeros([5]);
+	//     const biases = tf.variable(initialValues);
+	//     biases.print();
+	//     console.log(Object.prototype.toString.call(biases));
 
-//     const updatedValues = tf.tensor1d([0, 1, 0, 1, 0]);
-//     biases.assign(updatedValues);
-//     biases.print();
-//     console.log('----------------------------------------');
-// const t = tf.tensor([[1.0, 2.0, 3.0], [10.0, 20.0, 30.0]]);
-// const s = tf.scalar(3);
-// tf.print(t,s,t.add(s),t.mul(s))
+	//     const updatedValues = tf.tensor1d([0, 1, 0, 1, 0]);
+	//     biases.assign(updatedValues);
+	//     biases.print();
+	//     console.log('----------------------------------------');
+	// const t = tf.tensor([[1.0, 2.0, 3.0], [10.0, 20.0, 30.0]]);
+	// const s = tf.scalar(3);
+	// tf.print(t,s,t.add(s),t.mul(s))
 
  	const a = tf.tensor2d([[5.0, 6.0], [7.0, 8.0]]);
     const b = tf.tensor2d([[1.0, 2.0], [3.0, 4.0]]);
