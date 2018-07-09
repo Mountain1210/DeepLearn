@@ -1,13 +1,12 @@
-// import * as tf from '@tensorflow/tfjs'
-
 "use strict";
+require('../css/index.css');
 document.write('<h1>Hello World!!!</h1>');
 　　[1, 2, 3].map(function (x) {
 	// console.log(x)
 　　  return x * x;
 　　});
 
-document.write('<h1>====index=========================================================================================</h1>');
+document.write('<h1>====index3=========================================================================================</h1>');
 
 // const shape = [2, 3]; // 2行，3列
 // const a = tf.tensor([1.0, 2.0, 3.0, 10.0, 20.0, 30.0], shape);
